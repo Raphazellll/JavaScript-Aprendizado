@@ -56,4 +56,14 @@
             function (a, b, c){ 
             return a + b + c; 
             } /// Esta função retorna a soma de três números. 
+
+
+========================================================================================================================================================
+
+    Função arrow
+
+        Funções SETA são uma sintaxe moderna e mais consisa, principalmente para casos de uso simples e call-backs.
+
+            let exemploDeFuncao = (parametro1, parametro 2) => {...}
+
 */

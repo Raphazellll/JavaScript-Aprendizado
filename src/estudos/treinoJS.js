@@ -23,3 +23,4 @@ const estado = "Paraná";
 
 let texto = ("Olá, me chamo " + nome + ", tenho " + idade + " anos de idade. Atualmente estou morando em " + cidade + ", " + estado + ".");
 console.log(texto);
+

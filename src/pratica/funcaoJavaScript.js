@@ -45,11 +45,18 @@ mensagem();
     console.log("Resultado da chamada da função somarParametros: " + resultado2);
 
 // Definindo uma função que aceita outra função como argumento
-    //function executarFuncao(funcao, valor1, valor2) {
-        //console.log("");
-   // }
+    function executarFuncao(funcao, valor1, valor2) {
+        console.log("\nExecutando a função passada como argumento ou parâmetro");
+        return funcao(valor1, valor2);
+    }
 
 // Passando a função anônima como argumento para outra função
-    //console.log("Resultado da execução da função passada como argumento: " + resultadoFuncao);
+    let resultadoExecucao = executarFuncao(somarParametros, 7, 3)
+    console.log("Resultado da execução da função passada como argumento: " + resultadoExecucao);
 
 // Definindo e chamando uma função anônima imediatamente
+let resultadoImediato = (function(a,b){
+    console.log("\nFunção de chamada imediata: ");
+    return a*b;
+})(4,6);
+console.log("Resultado da função anônima imediatamente: " + resultadoImediato);
