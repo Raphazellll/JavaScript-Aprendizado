@@ -31,6 +31,7 @@
         
 ========================================================================================================================================================
 
+<<<<<<< HEAD
     Funções regulares 
         function nomeDaFunção(parametro1, parmetro2) {
             //bloco de código a ser executado
@@ -41,4 +42,57 @@
         recomendado colocar em uma LET.
 
         
+=======
+    Funções em JavaScript
+
+ O que são funções?
+        São bloco de códigos reutilizáveis.
+    
+Objetivo principal:
+        Executar uma tarefa específica num momento específico, evitando repetições desnecessárias dentro de um escopo 
+        definido e com parâmetros específicos.
+
+    Exemplo:
+        function nome(parâmetro) {
+        //bloco de código que será executado   <---- Declaração de função.
+            }
+
+    let x = exemplo(2, 3);
+    function exem0plo(a,b) {
+     return a * b;
+        }
+    
+        
+Importância de usar funções
+   
+    * Reutilização de código
+    * Abstração
+    * Modularidade
+    * Legibilidade
+    * Manutenção
+    * Escopo   
+
+Funções Regulares
+
+    Funções definidas pela palava-chave FUNCTION
+
+        function nomeDaFuncao(parametro1, parametro2) {
+            //bloco de código a ser executado
+            return algumValor; // o retorno é opcional
+        
+            }
+
+
+Funções Anônimas
+
+    Não possuem um nome diretamente associado a elas.
+
+        let exemploDeFuncao = function(parametro1, parametro2) {
+            //bloco de código a ser executado
+            }
+
+
+        
+    
+>>>>>>> origin/main
 */
