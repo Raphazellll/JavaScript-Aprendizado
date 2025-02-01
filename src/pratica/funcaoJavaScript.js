@@ -33,23 +33,23 @@ mensagem();
         console.log("Parâmetro 1: " + parametro1);
         console.log("Parâmetro 2: " + parametro2);
 
-        let resultado2 = parametro1 + parametro2;
+        let resultado2 = parametro1 + parametro2; // calcula os parâmetros
 
-        console.log("Resultado: " + resultado2);
+        console.log("Resultado: " + resultado2); // resultado da soma dos parâmetros
 
-        return resultado2;
+        return resultado2; // retirba o resultado.
     }
 
 // Chamada da função anônima através da variável
-    let resultado2 = somarParametros(5, 10);
+    let resultado2 = somarParametros(5, 10); // criando uma let, chamando o somarParametros e passando os parâmetros para que tenha a soma.
     console.log("Resultado da chamada da função somarParametros: " + resultado2);
 
 // Definindo uma função que aceita outra função como argumento
-    function executarFuncao(funcao, valor1, valor2) {
-        console.log("");
-    }
+    //function executarFuncao(funcao, valor1, valor2) {
+        //console.log("");
+   // }
 
 // Passando a função anônima como argumento para outra função
-    console.log("Resultado da execução da função passada como argumento: " + resultadoExecucao);
+    //console.log("Resultado da execução da função passada como argumento: " + resultadoFuncao);
 
 // Definindo e chamando uma função anônima imediatamente
