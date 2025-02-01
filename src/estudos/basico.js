@@ -31,5 +31,14 @@
         
 ========================================================================================================================================================
 
+    Funções regulares 
+        function nomeDaFunção(parametro1, parmetro2) {
+            //bloco de código a ser executado
+            return algumValor: // o retorno é opcional
+        }
 
+    Dá pra colocar o resultado de uma função em uma variável, como let, const ou var
+        recomendado colocar em uma LET.
+
+        
 */
