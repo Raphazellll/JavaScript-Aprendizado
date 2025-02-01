@@ -15,7 +15,7 @@ let dobrar = n => n*2;
 // Chamando a função e exibindo o resultado no console
 console.log(dobrar(4));
 
-// Exemplo de uma arrow function usava com callback
+// Exemplo de uma arrow function usada com callback
 let numeros = [1, 2, 3, 4, 5, 6, 7, 8];
 
 // Usando arrow function com o método map para dobrar os valores do array
