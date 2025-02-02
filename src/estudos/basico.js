@@ -66,4 +66,41 @@
 
             let exemploDeFuncao = (parametro1, parametro 2) => {...}
 
+        A função arrow, ou função de seta, é uma forma de escrever funções no JavaScript que é mais concisa que a expressão de função (function expression). 
+            A sintaxe da função arrow é: variável = (parâmetros) => {  … 
+            A função arrow é útil para escrever funções pequenas e concisas, tornando o código mais limpo e fácil de ler. 
+
+            Algumas vantagens da função arrow são:
+            Serem menos verbosas do que as funções tradicionais 
+            O valor do "this" é definido a partir das funções onde foram definidas 
+            São úteis para passar funções como parâmetros para outras funções ou para métodos de objetos 
+            No entanto, as funções arrow são anônimas, o que significa que não são nomeadas. Isso pode dificultar a depuração. 
+
+ ========================================================================================================================================================
+
+        Operadores e Operações
+
+        Definição de Operadores em programação
+
+            Símbolos ou palavras-chaves especiais que permitem realizar operações em valores, variáveis ou expressões.
+                * Operaçõe aritméticas
+                * Comparações
+                * Atribuições e outras
+                 
+        Operadores aritméticos
+            Operações matemática em valores numéricos.
+
+            * Adição(+)
+            * Subtração(-)
+            * Multiplicação (*)
+            * Divisão (/)
+            
+            * Módulo (%)
+            * Exponencial (**)
+            * Incrementar (++)
+            * Decrementar (--) 
+            
+            
+
+
 */
