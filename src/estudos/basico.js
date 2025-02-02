@@ -100,7 +100,35 @@
             * Incrementar (++)
             * Decrementar (--) 
             
-            
+    Operadores lógico e Tabela verdade 
+
+        Operadores Lógicos
+            Operações lógicas em valores booleanos.     
+                * && (E lógico)
+                * || (OU lógico)
+                * !  (NÃO lógico)
+        
+        Operações de Comparação, aritmétimos lógico
+
+                * == (IGUAL a)
+                * != (DIFERENTE)
+                * === (MESMO VALOR e TIPO)
+                * !== (DIFERENTE em VALOR e TIPO)
+                
+                * <  (MENOR que)
+                * >  (MAIOR que)
+                 
+                *  <= (MENOR ou IGUAL a)
+                * >=  (MAIOR ou IGUAL a)
+        
+    Ferramenta básica para estudo de lógica.
+
+            X           Y         X&&Y
+        Verdadeiro Verdadeiro Verdadeiro
+        Verdadeiro    Falso      Falso
+        Falso      Verdadeiro    Falso
+        Falso         Falso      Falso
+                
 
 
 */
