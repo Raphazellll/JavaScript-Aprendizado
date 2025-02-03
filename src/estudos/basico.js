@@ -138,7 +138,17 @@
             * /=
               Operadores e Operações
                 
+========================================================================================================================================================
 
+   
+Instruções condicionais:
+
+    IF-ELSE
+
+        if: a instrução será executada apenas se a confição específica for verdadeira.
+        else: a instrução será executada apenas se a condição específica for falsa.
+
+    
 
 */
  

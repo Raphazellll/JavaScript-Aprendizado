@@ -46,8 +46,10 @@ console.log(texto);
 
  // Operadores 
 
- let x = 8
- let  y = 3
- let resultado = (x + y * 2) > (x % y) && x != y
+ let a = 7 
+ let b = 10
+ let c = 5
 
-console.log(resultado)
+ let result = (a >= b) || (c <= b) // true
+
+ console.log(result)
