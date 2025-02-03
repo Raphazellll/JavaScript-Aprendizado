@@ -21,7 +21,7 @@
 
 console.log("Hora de dançar!");
 console.log("\n")
-danca:
+danca: // o rótulo deve ficar acima da expressão.
 for (let i = 0; i < 3; i++) {
     jogos:
     for (let j = 0; j < 3; j++) {
