@@ -154,6 +154,29 @@ Instruções condicionais:
             no valor de uma expressão (escolha).
         É uma alternativa mais organiza ao invéz do if...else repetidamente
     
+    LAÇO e REPETIÇÃO
+
+        Laçõs de repetição são também conhecidos como loops, do inglês.
+
+            Objetivo: Executar um bloco de código várias vezes enquanto uma condição específica for verdadeira. 
+
+            FOR: para
+                for(int 1 = 0; i < 100; i++){
+                // bloco de código }
+
+            WHILE: enquanto
+                n = 1;
+                while (true) {
+                // bloco de codigo
+                n++;}
+
+            DO - WHILE: faça enquanto
+                do {
+                // bloco de codigo } while (condição)
+
+        
+
+
 
 */
  
