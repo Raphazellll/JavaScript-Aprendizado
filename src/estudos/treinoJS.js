@@ -28,7 +28,7 @@ console.log(texto);
  // Arrow Function
 // Esse tipo de função serve melhor para listar, podendo criar varias variáveis para diferentes saídas
 // Não dando para usar com Strings, apenas com int ou doubles
- let numero = [5.37];
+ let numero = [5.0];
  
  let multiplicacao = numero.map(n => n*1);
  let multiplicacao2 = numero.map(n => n*2);

@@ -66,4 +66,16 @@
 
             let exemploDeFuncao = (parametro1, parametro 2) => {...}
 
+
+========================================================================================================================================================
+
+    Operadores de atribuição
+
+        Atribuir um valor a uma variável, o mais básico é o "="
+        
+        Algumas variações:
+            * +=
+            * -=
+            * *=
+            * /=
 */
