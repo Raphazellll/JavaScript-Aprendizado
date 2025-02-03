@@ -148,6 +148,11 @@ Instruções condicionais:
         if: a instrução será executada apenas se a confição específica for verdadeira.
         else: a instrução será executada apenas se a condição específica for falsa.
 
+    SWITCH
+
+        É uma estrutura de CONTROLE que permite selecionar um dos vários bloco de código baseado 
+            no valor de uma expressão (escolha).
+        É uma alternativa mais organiza ao invéz do if...else repetidamente
     
 
 */

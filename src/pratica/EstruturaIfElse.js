@@ -1,4 +1,4 @@
-// Variáve que representa a previsão do tempo
+// IF-ELSE   Variáve que representa a previsão do tempo
 
 let weatherForCast = "cloudy"
 
@@ -11,3 +11,6 @@ if(weatherForCast === "rainy") {
 }else{
     console.log("NÃO devemos levar um guarda-chuva")
 }
+
+//========================================================================================================================================================
+

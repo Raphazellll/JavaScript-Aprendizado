@@ -53,3 +53,9 @@ console.log(texto);
  let result = (a >= b) || (c <= b) // true
 
  console.log(result)
+
+  // ============================================
+
+  // Estrutura condicional
+
+  
