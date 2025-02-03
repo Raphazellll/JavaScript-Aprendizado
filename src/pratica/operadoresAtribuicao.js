@@ -2,6 +2,7 @@
 
 // Operador de atribuição básico (=)
 let a = 10;
+let b = 11;
 console.log(`Valor inicial de a: ${a}`);
 
 // Operador de atribuição de Adição (+=)
@@ -25,3 +26,5 @@ a %= 4 // equivalente a = a % 4
 console.log(`Após a %= 4, valor de a: ${a}`);
 
 // Operador de atribuição de Exponenciação (**=)
+a **= 3;
+console.log(`Após a **= 3, valor de a: ${a}`);
