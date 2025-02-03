@@ -62,25 +62,6 @@
 
     Função arrow
 
-        Funções SETA são uma sintaxe moderna e mais consisa, principalmente para casos de uso simples e call-backs.
-
-            let exemploDeFuncao = (parametro1, parametro 2) => {...}
-
-<<<<<<< HEAD
-
-========================================================================================================================================================
-
-    Operadores de atribuição
-
-        Atribuir um valor a uma variável, o mais básico é o "="
-        
-        Algumas variações:
-            * +=
-            * -=
-            * *=
-            * /=
-*/
-=======
         A função arrow, ou função de seta, é uma forma de escrever funções no JavaScript que é mais concisa que a expressão de função (function expression). 
             A sintaxe da função arrow é: variável = (parâmetros) => {  … 
             A função arrow é útil para escrever funções pequenas e concisas, tornando o código mais limpo e fácil de ler. 
@@ -91,9 +72,10 @@
             São úteis para passar funções como parâmetros para outras funções ou para métodos de objetos 
             No entanto, as funções arrow são anônimas, o que significa que não são nomeadas. Isso pode dificultar a depuração. 
 
- ========================================================================================================================================================
 
-        Operadores e Operações
+========================================================================================================================================================
+
+   
 
         Definição de Operadores em programação
 
@@ -143,8 +125,24 @@
         Verdadeiro    Falso      Falso
         Falso      Verdadeiro    Falso
         Falso         Falso      Falso
+
+        
+    Operadores de atribuição
+
+        Atribuir um valor a uma variável, o mais básico é o "="
+        
+        Algumas variações:
+            * +=
+            * -=
+            * *=
+            * /=
+              Operadores e Operações
                 
 
 
 */
->>>>>>> refs/remotes/origin/main
+ 
+            
+
+       
+      
