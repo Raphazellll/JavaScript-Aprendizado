@@ -474,6 +474,15 @@ Instruções condicionais:
             Resumindo, JSON é uma ferramenta poderosa e versátil para manipulação e troca de dados, sendo usado
                 desde comunicação entre cliente e servidor até a persistência de dados em sistemas locais.
 
+        Visualização de Objetos JSON
+            * Console do navegador
+            * Formatação de linha
+            * Formatação de Estilo
+            * Ferramentas Online
+
+
+        Ferramenta Online
+            JSON Formatter
 
 
 
