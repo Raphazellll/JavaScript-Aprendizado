@@ -175,6 +175,140 @@ Instruções condicionais:
                 // bloco de codigo } while (condição)
 
         
+========================================================================================================================================================
+
+
+    STRINGS
+
+        Em JavaScript, strings são sequências de caracteres e são um dos tipos de dados mais usados. Você pode criar,
+            manipular e realizar várias operações com strings.
+
+    Criando Strings
+        Você pode criar strings de diferentes maneiras: com aspas simples ('), aspas duplas (") 
+            ou template literals com crase (`).
+
+            let stringAspasSimples = 'Olá, mundo!';
+            let stringAspasDuplas = "Olá, mundo!";
+            let stringTemplateLiteral = `Olá, mundo!`;
+
+
+        Métodos Comuns de Strings
+            Aqui estão alguns dos métodos mais comuns para trabalhar com strings em JavaScript:
+
+            O método length retorna o número de caracteres de uma string;
+
+            console.log(frase.length);  // 12
+            let frase = "Olá, mundo!";
+
+            Acessando Caracteres;
+
+            Você pode acessar caracteres individuais de uma string usando a notação de índice (começando de 0).
+
+                    let frase = "Olá, mundo!";
+                    console.log(frase[0]); // "O"
+
+            Método toUpperCase()
+            Converte todos os caracteres de uma string para maiúsculas.
+
+                    let frase = "olá, mundo!";
+                    console.log(frase.toUpperCase());  // "OLÁ, MUNDO!"
+
+            Método toLowerCase()
+            Converte todos os caracteres de uma string para minúsculas.
+
+                    let frase = "OLÁ, MUNDO!";
+                    console.log(frase.toLowerCase());  // "olá, mundo!"
+
+            Método trim()
+            Remove os espaços em branco no início e no final de uma string.
+
+                    let frase = "   Olá, mundo!   ";
+                    console.log(frase.trim());  // "Olá, mundo!"
+
+            Método substring()
+            Retorna uma parte da string, começando e terminando em índices específicos.
+
+                    let frase = "Olá, mundo!";
+                    console.log(frase.substring(0, 3));  // "Olá"
+
+            Método replace()
+            Substitui parte de uma string por outra.
+
+                    let frase = "Olá, mundo!";
+                    console.log(frase.replace("mundo", "JavaScript"));  // "Olá, JavaScript!"
+
+            Método split()
+            Divide uma string em um array, usando um delimitador específico.
+
+                    let frase = "Olá, mundo!";
+                    let palavras = frase.split(", ");
+                    console.log(palavras);  // ["Olá", "mundo!"]
+
+            Método indexOf()
+            Retorna o índice da primeira ocorrência de um valor em uma string. Retorna -1 se não encontrado
+
+                    let frase = "Olá, mundo!";
+                    console.log(frase.indexOf("mundo"));  // 5
+
+
+                    
+A concatenação de strings em JavaScript é o processo de combinar duas ou mais strings em uma única.
+     Existem várias maneiras de fazer isso. Aqui estão as formas mais comuns de concatenar strings:
+
+        1. Usando o operador +
+            O operador + é a maneira mais tradicional de concatenar strings.
+
+                    let nome = "João";
+                    let saudacao = "Olá, " + nome + "!";
+                    console.log(saudacao);  // "Olá, João!"
+
+        2. Usando o operador +=
+            Você pode usar o operador += para adicionar uma string a outra, modificando a string original.
+
+                    let frase = "Olá";
+                    frase += ", Mundo!";
+                    console.log(frase);  // "Olá, Mundo!"
+
+        3. Usando Template Literals (Crase `)
+            Os template literals (ou template strings) são uma maneira moderna e mais legível de concatenar strings. 
+                Eles permitem embutir variáveis dentro de strings de forma mais prática, usando ${}.     
+                
+                    let nome = "João";
+                    let saudacao = `Olá, ${nome}! Como você está?`;
+                    console.log(saudacao);  // "Olá, João! Como você está?"
+
+        4. Usando o método concat()
+            O método concat() é uma forma explícita de concatenar duas ou mais strings. 
+                No entanto, é menos usado hoje em dia em comparação com as outras abordagens,
+                pois as outras são mais simples e legíveis.
+
+                    let saudacao = "Olá, ";
+                    let nome = "João";
+                    let mensagem = saudacao.concat(nome, "!");
+                    console.log(mensagem);  // "Olá, João!"
+        5. Concatenando com Arrays (em casos mais complexos)
+            Você também pode usar o método join() de arrays para concatenar várias strings de maneira eficiente.
+
+                    let partes = ["Olá", "João", "como", "vai?"];
+                    let mensagem = partes.join(" ");
+                    console.log(mensagem);  // "Olá João como vai?"
+
+
+Qual usar?
+
+    Operador + e +=: São mais simples e amplamente utilizados.
+
+    Template literals: São mais legíveis, especialmente quando você precisa embutir expressões ou variáveis dentro da string.
+
+    Método concat(): Pode ser útil em alguns casos, mas é menos popular atualmente, pois o operador + é mais direto e legível.
+
+    join(): Útil quando você precisa concatenar muitas partes de uma vez e deseja adicionar separadores entre elas.
+
+    A escolha entre essas opções depende do seu estilo de codificação e do caso específico. Normalmente, 
+        template literals são preferidos por sua clareza e flexibilidade.
+
+
+
 
 
 
