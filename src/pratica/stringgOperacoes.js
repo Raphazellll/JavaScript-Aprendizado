@@ -49,8 +49,23 @@ let animaisJuntos = animal1.concat(" ", animal2, " ", animal3);
 console.log("Resultado concat():", animaisJuntos);
 console.log("\n");
 
+// Definindo uma string de exemplo
+let nome = "Raphael Martins Pimenta";
+console.log("Nome inicial: " + nome);
+
 // Método toLowerCase
+// Usando o método para converter todos os caracteres alfabéticos para minúsculas
+let nomeMinusculo = nome.toLowerCase();
+console.log("Nome em minúsculas: " + nomeMinusculo);
+
+
+
 
 // Método toUpperCase
+
+// Usando o método para converter todos os alfabéticos para maiúsculas
+let nomeMaiusculo = nome.toUpperCase();
+console.log("Nome em maiúsculas: " + nomeMaiusculo);
+
 
 

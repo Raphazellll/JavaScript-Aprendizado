@@ -310,6 +310,33 @@ Instruções condicionais:
 
 
 
+========================================================================================================================================================
+
+
+    Arquivos JSON
+        JSON (JavaScript Object Notation) é um formato leve de troca de dados e é fácil de ler e escrever, 
+            tanto para humanos quanto para máquinas. Em JavaScript, é comumente usado para enviar e receber dados de servidores.
+
+        Aqui está um exemplo básico de JSON em JavaScript:
+
+{
+  "nome": "João",
+  "idade": 30,
+  "endereco": {
+    "rua": "Rua das Flores",
+    "numero": 123
+  },
+  "telefones": ["1234-5678", "9876-5432"]
+}
+
+        Explicação:
+
+"nome": uma chave que mapeia para o valor "João".
+"idade": uma chave que mapeia para o valor 30.
+"endereco": um objeto aninhado que contém duas chaves: "rua" e "numero".
+"telefones": um array de strings que contém dois números de telefone.
+
+
 
 
 */
