@@ -192,7 +192,7 @@ Instruções condicionais:
             let stringTemplateLiteral = `Olá, mundo!`;
 
 
-        Métodos Comuns de Strings
+    Métodos Comuns de Strings
             Aqui estão alguns dos métodos mais comuns para trabalhar com strings em JavaScript:
 
             O método length retorna o número de caracteres de uma string;
@@ -252,8 +252,8 @@ Instruções condicionais:
 
 
                     
-A concatenação de strings em JavaScript é o processo de combinar duas ou mais strings em uma única.
-     Existem várias maneiras de fazer isso. Aqui estão as formas mais comuns de concatenar strings:
+        A concatenação de strings em JavaScript é o processo de combinar duas ou mais strings em uma única.
+            Existem várias maneiras de fazer isso. Aqui estão as formas mais comuns de concatenar strings:
 
         1. Usando o operador +
             O operador + é a maneira mais tradicional de concatenar strings.
@@ -294,7 +294,7 @@ A concatenação de strings em JavaScript é o processo de combinar duas ou mais
                     console.log(mensagem);  // "Olá João como vai?"
 
 
-Qual usar?
+    Qual usar?
 
     Operador + e +=: São mais simples e amplamente utilizados.
 
