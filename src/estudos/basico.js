@@ -484,6 +484,17 @@ Instruções condicionais:
         Ferramenta Online
             JSON Formatter
 
+        Manipulação de Dados
+
+            Manipular dados em formato JSON envolve uma série de operações comuns, como:
+                * Adicionar
+                * Modificar
+                * Acessar
+                * Remover elementos de objetos JSON
+                * 
+            
+            
+
 
 
 
